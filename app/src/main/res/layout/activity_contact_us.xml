@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img_1"
+    android:elevation="20dp"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".ContactUsActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/PBC_2"
+        app:cardElevation="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/back_btn_CUAc"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:contentDescription="@string/Content_descriptions"
+                android:elevation="50dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/ic_back_arrow"
+                app:tint="@color/white" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:elevation="50dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
+                    android:text="C"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="46sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="4dp"
+                    android:elevation="50dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="@font/oxygen_bold"
+                    android:gravity="center"
+                    android:text="ontact Us :"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/ks_white_1000"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView7"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView7" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/Content_descriptions"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="20dp"
+                android:fitsSystemWindows="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                app:cardBackgroundColor="@color/ks_grey_800"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:fitsSystemWindows="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <EditText
+                        android:id="@+id/name_input_CUAc"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/background_5"
+                        android:drawableStart="@drawable/ic_person_outline"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="@color/ks_grey_800"
+                        android:hint="Full-name"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="10dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/ks_grey_800"
+                        android:textColorHint="@color/ks_grey_600"
+                        android:textSize="16sp"
+                        android:textStyle="bold|italic" />
+
+                    <EditText
+                        android:id="@+id/email_input_CUAc"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/background_5"
+                        android:drawableStart="@drawable/ic_mail_outline"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="@color/ks_grey_800"
+                        android:hint="E-mail"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="10dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/ks_grey_800"
+                        android:textColorHint="@color/ks_grey_600"
+                        android:textSize="16sp"
+                        android:textStyle="bold|italic" />
+
+                    <EditText
+                        android:id="@+id/phone_input_CUAc"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/background_5"
+                        android:drawableStart="@drawable/ic_phone_outline"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="@color/ks_grey_800"
+                        android:hint="Phone-number"
+                        android:inputType="number"
+                        android:paddingLeft="10dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/ks_grey_800"
+                        android:textColorHint="@color/ks_grey_600"
+                        android:textSize="16sp"
+                        android:textStyle="bold|italic" />
+
+                    <EditText
+                        android:id="@+id/message_input_CUAc"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/background_5"
+                        android:drawableStart="@drawable/ic_message_outline"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="@color/ks_grey_800"
+                        android:hint="Message..."
+                        android:inputType="textMultiLine"
+                        android:paddingLeft="10dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/ks_grey_800"
+                        android:textColorHint="@color/ks_grey_600"
+                        android:textSize="16sp"
+                        android:textStyle="bold|italic" />
+
+                    <Button
+                        android:id="@+id/send_btn_CUAc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/background_5"
+                        android:backgroundTint="@color/PBC_2"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center"
+                        android:text="Send"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/linearLayout10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/PBC_2"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_city"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/white"
+                            android:fontFamily="@font/oxygen_bold"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:text="Address:"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_location"
+                            android:drawablePadding="5dp"
+                            android:drawableTint="@color/white"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:text="GDG office Indore (M.P)"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_location"
+                            android:drawablePadding="5dp"
+                            android:drawableTint="@color/white"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:text="GDG office Bhopal (M.P)"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:contentDescription="@string/Content_descriptions"
+                        android:elevation="50dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:src="@drawable/ic_phone_lab"
+                        app:layout_constraintBottom_toBottomOf="@+id/linearLayout8"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/linearLayout8"
+                        app:layout_constraintTop_toTopOf="@+id/linearLayout8"
+                        app:tint="@color/white" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:drawableEnd="@drawable/ic_support"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/white"
+                            android:fontFamily="@font/oxygen_bold"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:text="Support"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableEnd="@drawable/ic_phone_reciver"
+                            android:drawablePadding="5dp"
+                            android:drawableTint="@color/white"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:text="+91 0000000000"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:drawableEnd="@drawable/ic_phone_reciver"
+                            android:drawablePadding="5dp"
+                            android:drawableTint="@color/white"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:text="+91 0000000000"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:contentDescription="@string/Content_descriptions"
+                        android:elevation="50dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:src="@drawable/ic_cloud"
+                        app:layout_constraintBottom_toBottomOf="@+id/linearLayout9"
+                        app:layout_constraintEnd_toStartOf="@+id/linearLayout9"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/linearLayout9"
+                        app:tint="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+                        android:weightSum="3"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/linearLayout7">
+
+                        <ImageView
+                            android:id="@+id/instagram_btn_footer_CUAc"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:clickable="true"
+                            android:contentDescription="@string/Content_descriptions"
+                            android:elevation="50dp"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:src="@drawable/instagram_icon_img"
+                            app:tint="@color/white" />
+
+                        <ImageView
+                            android:id="@+id/linkedin_btn_footer_CUAc"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:clickable="true"
+                            android:contentDescription="@string/Content_descriptions"
+                            android:elevation="50dp"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:src="@drawable/linkedin_icon_img"
+                            app:tint="@color/white" />
+
+                        <ImageView
+                            android:id="@+id/play_store_btn_footer_CUAc"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:clickable="true"
+                            android:contentDescription="@string/Content_descriptions"
+                            android:elevation="50dp"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:src="@drawable/play_stor_icon_img"
+                            app:tint="@color/white" />
+
+                        <ImageView
+                            android:id="@+id/web_site_btn_footer_CUAc"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:clickable="true"
+                            android:contentDescription="@string/Content_descriptions"
+                            android:elevation="50dp"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:src="@drawable/website_iocn_img"
+                            app:tint="@color/white" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:background="@color/ks_transparent_1000">
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:fontFamily="@font/pt_sans_bold"
+                                android:gravity="center"
+                                android:text="developer"
+                                android:textAlignment="center"
+                                android:textAllCaps="false"
+                                android:textColor="@color/ks_white_1000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="3dp"
+                                android:layout_marginEnd="5dp"
+                                android:gravity="center"
+                                android:text="Hut"
+                                android:textAlignment="center"
+                                android:textAllCaps="false"
+                                android:textColor="@color/ks_white_1000"
+                                android:textSize="22sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/textView"
+                                app:layout_constraintTop_toTopOf="@+id/textView" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="2dp"
+                            android:layout_gravity="end"
+                            android:background="@color/ks_white_1000" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:text="since 2019"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            android:textStyle="normal|italic" />
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

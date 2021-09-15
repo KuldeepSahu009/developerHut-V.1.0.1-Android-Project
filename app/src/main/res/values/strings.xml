@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">developerHut</string>
+
+
+    <!--
+    **
+    * Design & Developed by Kuldeep Sahu on 18/07/2021.
+    * E-mail: sahukuldeep912001@gmail.com
+    * http://skywarrior09.gq
+    */
+    -->
+
+    <!--  By Default  -->
+    <string name="Copyright_Text">Copyright © developerHut | All right reserved | 2021</string>
+    <string name="Content_descriptions">All developerHut Project Content Descriptions</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="AdMob_APP_ID">...........</string>
+    <string name="AdMob_AD_ID">...........</string>
+    <string name="Testing_AdMob_AD_ID">...........</string>
+
+    <string name="About_Company_Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non cursus diam, sed pellentesque tortor. Aliquam vitae odio sagittis, blandit libero ut, semper arcu. Cras quam est, faucibus sed blandit nec, aliquet a felis. Cras iaculis mi quis egestas efficitur. Quisque auctor mauris felis. In eu purus a risus fringilla facilisis sit amet consequat tellus. In ac lacus quis justo ultricies aliquet ac vel dolor. Suspendisse nibh lorem, sagittis et lacus eget, hendrerit pretium sem. Vestibulum a sapien nec nunc eleifend ornare. Phasellus in tellus est. Phasellus bibendum nibh at urna auctor porttitor. Cras fringilla fringilla purus quis placerat.</string>
+    <string name="About_Owner_One_Text">Maecenas nec massa semper lectus ultricies mollis ut sed metus. Suspendisse potenti. Integer sed ultrices dui. Etiam id egestas libero, quis porta tortor.</string>
+    <string name="About_Owner_Two_Text">Maecenas nec massa semper lectus ultricies mollis ut sed metus. Suspendisse potenti. Integer sed ultrices dui. Etiam id egestas libero, quis porta tortor.</string>
+
+    <string name="Why_Choose_Us_Head_Text_One">Lets see why you should choose us</string>
+    <string name="WhY_Choose_Us_Card_Text_One">We Start \n Immediately</string>
+    <string name="WhY_Choose_Us_Card_Text_Two">Affordable \n Prices</string>
+    <string name="WhY_Choose_Us_Card_Text_Three">We Provide \n easy interaction \n to our client</string>
+    <string name="WhY_Choose_Us_Card_Text_Four">We provide \n free technical \n support for 30 \n days.</string>
+    <string name="WhY_Choose_Us_Card_Text_Five">Skilled Team for \n every task</string>
+    <string name="WhY_Choose_Us_Card_Text_Six">Fast Project \n Delivery.</string>
+
+    <string name="Appointment_Head_Text_One">We are glad to see you, please schedule a meeting</string>
+
+    <string name="Privacy_Policy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis tincidunt mi sed ornare. Proin commodo ipsum sed mauris tincidunt ultricies. Nulla euismod vestibulum elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In lobortis mi vitae arcu eleifend luctus. Maecenas id elit et magna congue pharetra. Mauris tincidunt nisi sed urna suscipit, sit amet efficitur ante scelerisque. Vestibulum efficitur fringilla nibh sed viverra. Fusce at mauris ac mi condimentum maximus. Phasellus sagittis dolor sed molestie lobortis. Aenean sagittis interdum purus sit amet finibus. Mauris sodales orci ex, id commodo quam aliquam et. Mauris eu suscipit nunc. Aenean mollis ullamcorper lacus, vel feugiat ante. Etiam tempor eu nibh et ultrices. \n Nunc in congue tellus. Nullam finibus porta ante, id vehicula lorem hendrerit eget. Cras semper vel augue vel sodales. Praesent eu scelerisque leo. In interdum auctor sagittis. Pellentesque eu risus massa. Curabitur accumsan in dolor vitae convallis. Maecenas eu convallis urna. Duis in quam a massa aliquam efficitur. Maecenas et lorem mi. Sed eu pellentesque sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</string>
+
+    <!--_______________-->
+
+</resources>
